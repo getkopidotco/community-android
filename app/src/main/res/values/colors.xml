@@ -3,19 +3,21 @@
     <!--<color name="colorPrimary">#3F51B5</color>-->
     <!--<color name="colorPrimaryDark">#303F9F</color>-->
     <!--<color name="colorAccent">#FF4081</color>-->
-    <color name="colorPrimary50">#FCE4EC</color>
-    <color name="colorPrimary100">#F8BBD0</color>
-    <color name="colorPrimary200">#F48FB1</color>
-    <color name="colorPrimary300">#F06292</color>
-    <color name="colorPrimary400">#EC407A</color>
-    <color name="colorPrimary500">#e91e63</color>
-    <color name="colorPrimary600">#D81B60</color>
-    <color name="colorPrimary700">#C2185B</color>
-    <color name="colorPrimary800">#AD1457</color>
-    <color name="colorPrimary900">#880E4F</color>
+    <color name="primary50">#FCE4EC</color>
+    <color name="primary100">#F8BBD0</color>
+    <color name="primary200">#F48FB1</color>
+    <color name="primary300">#F06292</color>
+    <color name="primary400">#EC407A</color>
+    <color name="primary500">#e91e63</color>
+    <color name="primary600">#D81B60</color>
+    <color name="primary700">#C2185B</color>
+    <color name="primary800">#AD1457</color>
+    <color name="primary900">#880E4F</color>
 
-    <color name="colorAccent100">#FF80AB</color>
-    <color name="colorAccent200">#FF4081</color>
-    <color name="colorAccent400">#F50057</color>
-    <color name="colorAccent700">#C51162</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="accent100">#FF80AB</color>
+    <color name="accent200">#FF4081</color>
+    <color name="accent400">#F50057</color>
+    <color name="accent700">#C51162</color>
 </resources>

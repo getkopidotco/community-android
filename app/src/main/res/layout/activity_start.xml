@@ -3,35 +3,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="0dp"
-    android:paddingLeft="0dp"
-    android:paddingRight="0dp"
-    android:paddingTop="0dp"
     tools:context="co.getkopi.community.StartActivity"
-    android:background="@color/colorPrimary500">
+    android:background="@color/primary500"
+    android:padding="0dp">
 
     <ImageView
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:src="@drawable/logo"
-        android:layout_above="@+id/button"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp" />
+        android:padding="30dp" />
 
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_getstart"
         android:id="@+id/button"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
         android:background="@android:color/white"
         android:focusable="false"
-        android:textColor="@color/colorPrimary500"
+        android:textColor="@color/primary500"
         android:enabled="true"
-        android:height="30dp"
         android:onClick="openMainActivity"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
